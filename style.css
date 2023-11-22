@@ -1,0 +1,188 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    background-color: #195C38;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 25.4px;
+    left: 30.3px;
+    width: 90%;
+    height: 90%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #84E1AD;
+
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3CD983, #1A5C38);
+    color: white;
+
+    text-align: center;
+
+    padding: 10px;
+}
+
+#titulo-principal {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px;
+}
+
+#subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+
+    text-align: center;
+
+    max-width: 425px;
+    margin: auto;
+}
+
+#menu {
+    background-color: #1A5C38;
+    color: white;
+
+    font-size: 90%;
+    /* word-spacing: 10px; */
+
+    text-align: center;
+
+    padding: 10px 15px;
+    border: 10px;
+}
+
+
+#menu button {
+    background-color: #195C38;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#menu button:hover {
+    background-color: #3cd98367;
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: 3ms;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#homeConteudo,
+#noticiasConteudo,
+#curiosidadesConteudo,
+#faleConoscoConteudo {
+    display: none;
+}
+
+#faleConoscoConteudo>a:hover {
+    text-decoration: underline;
+    transition-duration: .3s;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.Secao-textual {
+    background-color: white;
+    padding: 10px 20px;
+}
+
+#titulo {
+    font-family: 'Tektur', cursive;
+    color: #195C38;
+    font-size: 24px;
+}
+
+main p {
+    text-indent: 50px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #3CD983;
+}
+
+.titulos-secundarios {
+    font-family: 'Tektur', cursive;
+    color: #195C38;
+    background-image: linear-gradient(to right, #84E1AD, white);
+}
+
+#Extra {
+    background-color: #84E1AD;
+
+    margin: 10px;
+
+    border-radius: 20px;
+}
+
+#titulo-extra {
+    background-color: #3CD983;
+    color: white;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    padding: 10px;
+}
+
+.texto-extra {
+    padding: 0px 10px 10px 10px;
+}
+
+.lista {
+    flex-direction: column;
+    justify-content: start;
+    max-height: none;
+    flex-wrap: wrap;
+    display: flex;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+
+    font-size: 90%;
+
+    text-align: center;
+
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+footer>a {
+    color: white;
+}
